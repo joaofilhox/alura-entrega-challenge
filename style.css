@@ -1,0 +1,270 @@
+:root {
+  --body-color: #F3F5FC;
+  --color-blue: #0A3871;
+  --button-descriptografar-color: #D8DFE8;
+  --background-color-text-area-output: #FFFFFF;
+  --letras-color-output: #495057;
+  --color-area-text-autput: #FFFFFF;
+}
+
+body {
+  background: var(--body-color);
+  margin: 0;
+  padding: 0;
+  font-family: "inter", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 150%;
+}
+
+#container-header {
+  margin-top: 2.5rem;
+  margin-left: 5.3rem;
+  width: 31.09px;
+  height: 48px;
+}
+
+.imagens {
+  width: 100%;
+  height: 100%;
+}
+
+#container-main {
+  display: flex;
+  justify-content: center;
+}
+
+#container1 {
+  width: 90%;
+  max-width: 680px;
+  margin-top: 5.56%;
+  margin-left: 16.67%;
+  margin-right: 5.56%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#entrada-texto {
+  max-width: 100%;
+  height: 48px;
+}
+
+#input-text {
+  width: 100%;
+  max-height: 388px;
+  min-height: 48px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: var(--color-blue);
+  font-size: 2rem;
+  background: var(--body-color);
+}
+
+#input-text::-webkit-input-placeholder {
+  color: #0A3871;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 150%;
+}
+
+#output-text {
+  max-height: 575px;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 150%;
+  color: var(--letras-color-output);
+  font-style: normal;
+}
+
+#container2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.container-atençao {
+  display: flex;
+}
+
+.container-atençao img {
+  width: 16px;
+  height: 16px;
+  margin-right: 0.5rem;
+}
+
+.container-atençao p {
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.8rem;
+  opacity: 0.8;
+  line-height: 150%;
+  color: var(--letras-color-output);
+  font-family: 'Inter';
+}
+
+.container-botao {
+  width: 100%;
+  margin-top: 1rem;
+  display: flex;
+}
+
+#button-para-criptografa,
+#button-para-descriptografar {
+  border-radius: 24px;
+  padding: 1.5rem;
+  max-width: 343px;
+  height: 67px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+  text-align: center;
+  width: 100%;
+}
+
+#button-para-criptografa {
+  background: var(--color-blue);
+  color: var(--background-color-text-area-output);
+}
+
+#button-para-descriptografar {
+  border: 1px solid var(--color-blue);
+  background: var(--background-color-text-area-output);
+  color: var(--color-blue);
+}
+
+#container3 {
+  max-width: 400px;
+  width: 100%;
+  margin-right: 2.5rem;
+  background: var(--background-color-text-area-output);
+  box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+  border-radius: 32px;
+  margin-top: -3rem;
+}
+
+#image {
+  max-width: 336px;
+  max-height: 304px;
+  margin-top: 15.18rem;
+}
+
+#h1text {
+  max-width: 336px;
+  min-height: 58px;
+}
+
+#sumir h1 {
+  width: 100%;
+  height: 100%;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 120%;
+  color: var(--letras-color-output);
+  text-align: center;
+}
+
+#text-receber {
+  font-size: 1rem;
+  line-height: 150%;
+  text-align: center;
+  color: var(--letras-color-output);
+  margin-top: 1rem;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
+}
+
+#coopia {
+  height: 666px;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#botaoCopia {
+  border-radius: 24px;
+  border: 1px solid var(--color-blue);
+  color: var(--color-blue);
+  background: var(--background-color-text-area-output);
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+}
+
+#botao1 {
+  width: 50%;
+  margin-right: 1.5rem;
+}
+
+#botao2 {
+  width: 50%;
+}
+
+#text-copia {
+  max-width: 336px;
+  width: 100%;
+}
+
+#copia-texto {
+  max-width: 336px;
+  width: 100%;
+  height: 100%;
+  max-height: 67px;
+}
+
+#meu {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+
+  #container-header {
+    margin: 1rem 0rem 1rem 1.5rem;
+  }
+
+  #container-main {
+    flex-direction: column;
+    margin: 4rem 0rem 0rem 2rem;
+  }
+
+  #container1 {
+    margin-left: 0;
+    width: 93%;
+    height: 30rem;
+  }
+
+  #container3 {
+    max-width: 90%;
+    margin: 1.5rem 2rem 2rem 0.5rem;
+  }
+
+  #image {
+    display: none;
+  }
+
+  #input-text {
+    max-height: 340px;
+  }
+
+  #output-text {
+    max-height: 432px;
+  }
+
+  #coopia {
+    height: 520px;
+  }
+}

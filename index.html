@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <title>Decodificador de texto</title>
+</head>
+
+<body>
+    <div id="container-header">
+        <header class="imagens">
+            <img src="img/Vector.png" alt="Alura">
+        </header>
+    </div>
+    <main id="container-main">
+        <div id="container1">
+            <div id="entrada-texto">
+                <section>
+                    <textarea class="increase" id="input-text" placeholder="Digite seu texto"></textarea>
+                </section>
+            </div>
+            <div id="container2">
+                <section>
+                    <div class="container-atençao">
+                        <img src="img/Vector (1).png" alt="atenção">
+                        <p>Apenas letras minúsculas e sem acento.</p>
+                    </div>
+                    <div class="container-botao">
+                        <div id="botao1">
+                            <button id="button-para-criptografa">Criptografar</button>
+                        </div>
+                        <div id="botao2">
+                            <button id="button-para-descriptografar">Descriptografar</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <section id="container3">
+            <div id="sumir" class="section">
+                <div id="image">
+                    <img src="img/High.png" alt="" class="imagens">
+                </div>
+                <div id="h1text">
+                    <h1>Nenhuma mensagem encontrada</h1>
+                </div>
+                <div id="text-receber">
+                    <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                </div>
+            </div>
+            <div id="coopia" class="section" style="display:none">
+                <div id="text-copia">
+                    <textarea name="" class="increase" id="output-text" cols="20" rows="10"></textarea>
+                </div>
+                <div id="copia-texto">
+                    <button id="botaoCopia">Copia</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
