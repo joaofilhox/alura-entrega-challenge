@@ -48,7 +48,7 @@ function criptografar(texto) {
 function descriptografar(texto) {
    
     // Aqui você pode colocar sua lógica de descriptografar
-    return texto.replace(/\b(enter|imes|ai|ober|ufat)\b/g, function(str) {
+    return texto.replace(/(enter|imes|ai|ober|ufat)/g, function(str) {
       return mape[str.toLowerCase()] || str;
     })
 
