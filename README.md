@@ -18,6 +18,8 @@ Este é um projeto de um decodificador de texto desenvolvido em JavaScript. A fe
   
 - JavaScript: Para a implementação da lógica de decodificação e interatividade da página.
 
+  ## link para visualização do projeto: https://joaofilhox.github.io/alura-entrega-challenge/
+
 ## Como Usar
 
 1. Clone o repositório para o seu computador:
