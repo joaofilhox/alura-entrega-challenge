@@ -10,7 +10,7 @@ let sumir = document.getElementById("sumir");
 
 encryptButton.addEventListener("click", function() {
   let texto = inputText.value;
-  let textoCriptografado = criptografar(texto); // supondo que existe uma função chamada 'criptografar'
+  let textoCriptografado = criptografar(texto);
   outputText.value = textoCriptografado;
   verificaOutputText();
 });
@@ -18,7 +18,7 @@ encryptButton.addEventListener("click", function() {
 
 decryptButton.addEventListener("click", function() {
   let texto = inputText.value;
-  let textoDescriptografado = descriptografar(texto); // supondo que existe uma função chamada 'criptografar'
+  let textoDescriptografado = descriptografar(texto);
   outputText.value = textoDescriptografado;
   verificaOutputText();
 });
@@ -38,7 +38,6 @@ const mape = {
 }
 function criptografar(texto) {
    
-  // Aqui você pode colocar sua lógica de criptografia
   return texto.replace(/[aeiou]/ig, function(letra) {
     return mapeamento[letra.toLowerCase()] || letra;
   })
@@ -47,7 +46,6 @@ function criptografar(texto) {
 
 function descriptografar(texto) {
    
-    // Aqui você pode colocar sua lógica de descriptografar
     return texto.replace(/(enter|imes|ai|ober|ufat)/g, function(str) {
       return mape[str.toLowerCase()] || str;
     })
